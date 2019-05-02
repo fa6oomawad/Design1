@@ -189,8 +189,25 @@ display: inline-block;
     width:50%;
     height: 400px;
     background-color: rgb(207, 216, 216);
-    position: absolute;
+    position: relative;
     top:20%;
     left:50%;
-    }
 
+    }
+.imgFrame {
+    background-color: blueviolet;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top:10%;
+    left:10%;
+   
+}
+.imgFrame img {
+    width:100%;
+}
+
+.navbtn li {
+    border:2px solid black;
+    
+}
