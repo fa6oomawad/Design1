@@ -188,7 +188,7 @@ display: inline-block;
 #imgSlider {
     width:50%;
     height: 400px;
-    background-color: rgb(207, 216, 216);
+    background-color: white;
     position: relative;
     top:20%;
     left:50%;
@@ -250,6 +250,7 @@ margin-top:-1%;
     top:53%;
     left:50%;
     transform: translate(-50%,-50%);
+    box-shadow: 4px 6px 9px -4px rgba(112,111,112,1);
 }
 
 .project {
