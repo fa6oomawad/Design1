@@ -101,7 +101,11 @@ font-family: Helvetica;
 font-weight: bold;
 letter-spacing: 1px;
 margin-left:10px;
+cursor:pointer;
 
+}
+.searchBox button:hover{
+    background-color: rgba(255, 239, 19, 0.699);
 }
 .features{
     width:100%;
