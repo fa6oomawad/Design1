@@ -215,7 +215,7 @@ display: inline-block;
 
 .bigBox3{
     width:100%;
-    height: 1080px;
+    height: 1200px;
     background-color:rgb(233, 230, 227);
     position: relative;
 }
@@ -274,20 +274,35 @@ margin-top:-1%;
     position: relative;
     vertical-align: top;}
 
-.project  h3 {
+.project  h3 , .bigBox4 h3 {
     margin-top:70px;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     
     letter-spacing: .5px;
 }
-.project p {
+.project p , .bigBox4 p{
     font-size: 20px;
     color:grey;
     text-align: center;
 margin-top:-1%;
 }
+.bigButton {
+    outline-style: none;
+    height: 40px;
+    width:300px;
+    background-color: rgb(163, 162, 160);
+    border:none;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.151);
+    position: absolute;
+    top:93%;
+    left:40%;
+    
 
+}
+.bigButton:hover{
+    background-color:rgba(196, 187, 73, 0.925);
+}
 .project button {
     outline-style: none;
     height: 40px;
@@ -296,8 +311,34 @@ margin-top:-1%;
     border:none;
     box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.151);
     margin-left:70%;
+    
 
 }
 .project button:hover{
     background-color:rgba(196, 187, 73, 0.925);
+}
+
+.bigBox4{
+    width:100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.service {
+    display:inline-block;
+    width:200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-right:5%;
+}
+.service i {
+    margin-top:25%;
+    cursor: pointer;
+}
+.service i:hover{
+    color:rgba(196, 187, 73, 0.925);
+}
+.service p {
+    margin-top:10%;
+    color:black;
 }
