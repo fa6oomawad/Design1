@@ -346,3 +346,68 @@ margin-top:-1%;
     margin-top:10%;
     color:black;
 }
+
+.bigBox5{
+    width:100%;
+    height: 500px;
+    background-color: rgb(233, 230, 227);
+    position: relative;
+}
+
+.messageBox {
+width:400px;
+height: 400px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+top:10%;
+left:60%;
+box-shadow: 6px 7px 6px -5px rgba(94,94,94,0.87);
+
+}
+
+.messageBox input {
+    display: block;
+    outline-style: none;
+    width:80%;
+    height: 40px;
+    margin-bottom: 8px;
+    margin-left: 10%;
+   
+}
+.messageBox button {
+    outline-style: none;
+    height: 40px;
+    width:200px;
+    background-color: rgb(163, 162, 160);
+    border:none;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.151);
+    position: absolute;
+    top:84%;
+    left:25%;
+    font-weight: bold;
+}
+
+.messageBox button:hover {
+    background-color:rgba(196, 187, 73, 0.925);
+}
+
+.contact {
+    position: absolute;
+    left:15%;
+    top:25%;
+
+}
+.contact i {
+    display:inline-block;
+    margin-right:20px;
+    color:rgb(0, 0, 0);
+cursor: pointer;
+}
+.contact p {
+    display:inline-block;
+    color:grey;
+    font-family:Helvetica;
+    font-size:17px;
+    cursor: pointer;
+
+}
