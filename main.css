@@ -444,3 +444,50 @@ footer .foot {
     color:rgba(196, 187, 73, 0.925);
 }
 
+
+@media screen and (max-width:800px){
+.header{
+    top:20px;
+}
+
+.features{
+    width:100%;
+
+    position: absolute;
+    top:110%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    z-index:11;
+}
+
+.feature{
+    width:130px;
+    margin-right: 5px;
+}
+
+.feature p {
+    font-size: 10px;
+}
+
+.searchBox{
+    position:absolute;
+    top:60%;
+    left:90%;
+}
+.searchBox input {
+    width:200px;
+    height: 40px;
+font-size: 14px;
+display:block;
+margin-bottom:10px;
+}
+
+.searchBox button {
+    height: 44px;
+    width:150px;
+
+
+}
+
+
+}
