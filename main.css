@@ -445,49 +445,42 @@ footer .foot {
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (min-width:375px){
 .header{
-    top:20px;
+    height:50px;
+    text-align: left;
+}
+.header li {
+    margin-left:10px;
+}
+.iconsBox{
+    display:none;
 }
 
-.features{
-    width:100%;
-
-    position: absolute;
-    top:110%;
-    left:60%;
-    transform: translate(-50%,-50%);
-    z-index:11;
-}
-
-.feature{
-    width:130px;
-    margin-right: 5px;
-}
-
-.feature p {
-    font-size: 10px;
-}
-
-.searchBox{
+.title{
     position:absolute;
-    top:60%;
-    left:90%;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.searchBox{
+    transform:translate(-20%,-70%);
 }
 .searchBox input {
-    width:200px;
+     width:250px;
     height: 40px;
-font-size: 14px;
+font-size: 15px;
 display:block;
 margin-bottom:10px;
 }
-
 .searchBox button {
     height: 44px;
-    width:150px;
-
-
+    width:150px;  
+margin-left:45px;
 }
 
+.features{
+    display:none;
+}
 
 }
