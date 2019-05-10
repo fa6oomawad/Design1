@@ -446,6 +446,7 @@ footer .foot {
 
 
 @media screen and (min-width:375px){
+    /* start of section 1 */
 .header{
     height:50px;
     text-align: left;
@@ -482,5 +483,42 @@ margin-left:45px;
 .features{
     display:none;
 }
+
+/* start of section 2 */
+.bigBox2{
+    height: 730px;
+
+}
+#about {
+    width:100%;
+    top:2%;
+    display:block;
+    }
+    #about h3{
+        color:rgba(85, 84, 84, 0.658);
+        font-family: helvetica;
+        margin-top:10%;
+        margin-left:5%;
+        text-align: center;
+    }
+    #about p {
+      
+        margin-left:5%;
+        font-family: helvetica;
+    
+    }
+    #imgSlider {
+        width:90%;
+        height: 400px;
+        background-color: white;
+      display:block;
+      top:40%; 
+      left:0;   
+        }
+        .imgFrame{
+            top:0;
+            left:0;
+        }
+
 
 }
