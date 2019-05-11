@@ -595,4 +595,8 @@ footer .foot {
 #special {
     margin-top:34px;
 }
+#footicons{
+    display:inline-block;
+    top: 91%;
+}
 }
