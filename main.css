@@ -445,7 +445,7 @@ footer .foot {
 }
 
 
-@media screen and (min-width:375px){
+@media screen and (max-width:375px){
     /* start of section 1 */
 .header{
     height:50px;
@@ -519,6 +519,38 @@ margin-left:45px;
             top:0;
             left:0;
         }
+/*section 3 start */
+.bigBox3{
+    width:100%;
+    height: 5000px;
+}
+
+.projects{
+    top:20%;
+    
+}
+
+.project {
+    width:100%;
+    height:25%;
+}
+.project .part1{
+    display:block;
+    width:100%;
+    height:100%;
+    background-color: white;
+    position: relative;
+    
+}
+.project .part2{
+    display:inline-block;
+    width:49.2%;
+    height:100%;
+    
+    position: relative;
+    vertical-align: top;}
+
+        
 
 
 }
