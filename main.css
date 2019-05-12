@@ -603,3 +603,50 @@ footer .foot {
     top: 91%;
 }
 }
+
+
+@media screen  and (max-width:768px){
+    body {
+        overflow-y:hidden;
+    }
+    /* start of section 1 */
+.header{
+    height:50px;
+    text-align: left;
+    margin-left:12%;
+}
+.header li {
+    margin-left:10px;
+}
+.iconsBox{
+    display:none;
+}
+
+.title{
+    position:absolute;
+    top: 25%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.searchBox{
+    top: 33%;
+   transform: translate(-47%,-50%);
+}
+.searchBox input {
+     width:360px;
+    height: 40px;
+font-size: 15px;
+display:block;
+margin-bottom:10px;
+}
+.searchBox button {
+    height: 44px;
+    width:150px;  
+    margin-left: 104px;
+}
+
+.features{
+    display:none;
+}
+}
